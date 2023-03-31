@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #8ecae6;
+    font-family: 'Muli', sans-serif;
+    color: #274472;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.about-me {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    font-size: 30px;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.intro h1 {
+    margin-right: 10px;
+    color: #ffb703;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+} 
+button:hover {
+    background-color: #3e8e41;
+} 
+button a {
+    color: white;
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skills {
+    background-color: #94d2bd;
+    color: #023047;
+    padding: 50px;
+}
+
+.skills .icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.skills .icons img {
+    margin-right: 20px;
+}
+
+.skills .skills-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.skills .skills-icons img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    background-color: #e9d8a6;
+    color: #023047;
+    padding: 50px;
+}
+
+.projects .icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.projects .icons img {
+    margin-right: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 5%;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+}
+  
+.card-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-text h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+  
+.card-text p {
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+.experience {
+    background-color: #ffb703;
+    color: #023047;
+    padding: 50px;
+}
+
+.experience h1 {
+    margin-left: 30px;
+}
+
+.experience h4 {
+    margin-left: 80px;
+}
+
+.experience ul {
+    margin-left: 100px;
+}
+
+
+
+
+
+.blog {
+    background-color: #bb3e03;
+    color: #023047;
+    padding: 50px;
+}
+
+.icons img {
+    margin-right: 45px;
+}
+  
+.medium-post {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.medium-post-embed {
+    margin: 20px;
+    max-width: 350px;
+    text-align: left;
+}
+  
+.m-story {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+}
+  
+.m-story:hover {
+    color: #e9d8a6;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+section[section="contact"] {
+    background-color: #78181b;
+    color: #032232;
+    padding: 50px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons h1 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .contact-links a {
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-links a:hover {
+    transform: scale(1.1);
+  }
+  
+  
